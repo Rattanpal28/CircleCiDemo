@@ -57,14 +57,14 @@ workflows:
            filters:
             branches:
               only:
-                - QA
+                - qa
       - deploy to UAT:
            filters:
             branches:
               only:
-                - UAT                
+                - uat               
       - deploy to Production:
            filters:
             branches:
               only:
-                - master   
+                - master  
