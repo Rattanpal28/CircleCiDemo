@@ -1,0 +1,24 @@
+{
+    "orgName": "Sample company",
+    "edition": "Enterprise",
+    "features": ["Communities"],
+        "settings": {
+            "settings": {
+                "accountSettings": {
+                    "enableAccountTeams": true
+                },
+                "opportunitySettings": {
+                    "enableOpportunityTeam": true
+                },
+                "omniChannelSettings": {
+                    "enableOmniChannel": true
+                },
+                "lightningExperienceSettings": {
+                    "enableS1DesktopEnabled": true
+                },
+                "communitiesSettings": {
+                    "enableNetworksEnabled": true
+                }
+            }
+        }
+    }
