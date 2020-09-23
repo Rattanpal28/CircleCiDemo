@@ -27,10 +27,10 @@ jobs:
           name: Install Dependencies
           command: . build/install.sh
       - run:
-          name: Login to UAT
+          name: Login to QA
           command: . build/setup-qa.sh
       - run:
-          name: Deploy to UAT Org
+          name: Deploy to QA Org
           command: . build/deploy-qa.sh
           
           
@@ -66,5 +66,5 @@ workflows:
       - deploy to Production:
            filters:
             branches:
-              only:
+              only: 
                 - master  
