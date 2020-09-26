@@ -1,5 +1,5 @@
 public class HelloWorld {
     public static void hello() {
-        System.debug('Hello');
+        System.debug('Hello for demo');
     }
 }
