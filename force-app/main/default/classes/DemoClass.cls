@@ -1,5 +1,5 @@
 public with sharing class DemoClass {
     public DemoClass() {
-// Demo class
+// Demo class for circle ci
     }
 }
